@@ -1,5 +1,10 @@
-package main.java.com.ynov.devnotebook.ui.sections;
+package com.ynov.devnotebook.ui.sections;
 
-public class SecuritySection {
-    
+import com.ynov.devnotebook.ContentService;
+import com.ynov.devnotebook.ui.SectionPanel;
+
+public class SecuritySection extends SectionPanel {
+	public SecuritySection(ContentService contentService) {
+		super(contentService, ContentService.KEY_SECURITY);
+	}
 }

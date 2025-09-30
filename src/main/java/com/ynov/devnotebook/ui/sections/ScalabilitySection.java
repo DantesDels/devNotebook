@@ -1,5 +1,10 @@
-package main.java.com.ynov.devnotebook.ui.sections;
+package com.ynov.devnotebook.ui.sections;
 
-public class ScalabilitySection {
-    
+import com.ynov.devnotebook.ContentService;
+import com.ynov.devnotebook.ui.SectionPanel;
+
+public class ScalabilitySection extends SectionPanel {
+	public ScalabilitySection(ContentService contentService) {
+		super(contentService, ContentService.KEY_SCALABILITY);
+	}
 }
